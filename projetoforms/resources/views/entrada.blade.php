@@ -1,5 +1,5 @@
 @extends('layout')
-@section('titulo-pagina)
+@section('titulo-pesquisa')
 A minha APP
 @endsection
 @section('header')
@@ -8,5 +8,6 @@ Bem vindo
 @section('conteudo')
 <h2>Esta é a minha primeira web APP Formulario em Laravel</h2>
 
+
 <a href="{{route('mostrar.form')}}">Ir para o formulario</a>
-@endesection
+@endsection

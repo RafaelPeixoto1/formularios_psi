@@ -10,11 +10,11 @@ Fale connosco
 <form method="post" action="{{route('processar.form')}}">
     @csrf
     <label for="nome">Nome</label>
-    <input type="text"name="nome">
+    <input type="text" name="nome">
     <br>
     
 <label for="morada">Morada</label>
-    <input type"text"name="morada">
+    <input type="text" name="morada">
     <br>
     
 <label for="automovel">Automovel</label>
@@ -26,6 +26,6 @@ Fale connosco
     </select>
     <br>
     
-    <buttom type="submit">Enviar</buttom>
+    <button type="submit">Enviar</button>
 </form>
 @endsection
